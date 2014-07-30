@@ -1,0 +1,208 @@
+body {
+    webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;	
+    background-size: cover;
+    background-color:#EE0000;
+}
+
+article {
+    left:0.5%;
+    width:96%;
+    height: 90%;
+    top:8%;
+    padding-right:1%;
+    padding-left:1%;
+	background-color: rgba(255,255,255,0.95);
+    overflow:auto;
+}
+
+/*path {*/
+/*    fill-opacity:0;*/
+/*}*/
+
+/*#revenuFinal {*/
+/*    opacity:1;*/
+/*}*/
+
+/*#nouvelImpot {*/
+/*    opacity:0.4;*/
+/*}*/
+
+.grapheRepartition {
+    display:inline-block;
+    width: 900px;
+    height: 620px;
+    top:30px;
+    left:0px;
+    position:absolute;
+}
+
+.grapheTaux {
+    display:inline-block;
+    width: 600px;
+    height: 420px;
+    top: 230px;
+    left: 950px;
+    position:absolute;
+}
+
+/*#repartitionComplet {*/
+/*    display:inline-block;*/
+/*    width:500px;*/
+/*    height:400px;*/
+/*    top:700px;*/
+/*    left:1020px;*/
+/*    position:absolute;*/
+/*}*/
+
+/*#tauxComplet {*/
+/*    display:inline-block;*/
+/*    width:500px;*/
+/*    height:400px;*/
+/*    top:1100px;*/
+/*    left:1020px;*/
+/*    position:absolute;*/
+/*}*/
+
+#tauxImpot {
+    opacity: 0.5;
+}
+
+#Ajustement {
+    font-weight: bold;
+    padding: 10px;
+    background-color: #008000;   
+    top:650px;
+    position:absolute;
+    border-radius: 10px;
+}
+
+.slider {
+    top:445px;
+    position:absolute;
+}
+
+#slides1 {
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+#slider0 {
+    left:46px;
+}
+
+#slider1 {
+    left:127px;
+}
+
+#slider2 {
+    left:207px;
+}
+
+#slider3 {
+    left:286px;
+}
+
+#slider4 {
+    left:365px;
+}
+
+#slider5 {
+    left:445px;
+}
+
+#slider6 {
+    left:524px;
+}
+
+#slider7 {
+    left:603px;
+}
+
+#slider8 {
+    left:682px;
+    top:362px; /*-83*/
+}
+
+#slider9 {
+    left:761px;
+    top:362px;
+}
+
+#slider10 {
+    left:840px;
+    top:115px; /*-330*/
+}
+
+#slider11 {
+    left:910px;
+    top:195px;
+}
+
+#taux {
+    left:1100px;
+    top:210px;
+    position:absolute;
+}
+
+tr, td
+{
+    text-align : left;
+    width : auto;
+}
+
+#features {
+    width:auto;
+    left:570px;
+    top:640px;
+    position:absolute;
+}
+
+#logo {
+    height:9%;
+}
+
+#taux {
+    left: 910px;
+    top: 30px;
+}
+
+#taux div {
+    position: absolute;
+}
+
+label {
+    width: auto;
+}
+
+.ta {
+    color:#FF0000;
+}
+
+.nt {
+    color:#008000;
+}
+
+.ri {
+    color:#4281A4;
+}
+
+#choixLongueur {
+    top: 4.5%;
+}
+
+#choixLongueur span {
+    font-size: 1.2em;
+}
+
+#enregistrer {
+    right: 30px;
+    top: 638px;
+    position: absolute;
+    font-size: 1.6em;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #008000;
+}
